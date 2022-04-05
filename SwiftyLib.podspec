@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftyLib"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A CocoaPods library written in Swift"
 
   # This description is used to generate tags and improve search results.
@@ -53,9 +53,9 @@ This CocoaPods library helps you perform calculation.
   #  profile URL.
   #
 
-  spec.author             = { "Duy Dang" => "duy.dang@ntq-solution.com.vn" }
+  spec.author             = { "Duy Dang" => "duydv9x@gmail.com" }
   # Or just: spec.author    = "Duy Dang"
-  # spec.authors            = { "Duy Dang" => "duy.dang@ntq-solution.com.vn" }
+  # spec.authors            = { "Duy Dang" => "duydv9x@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/Duy Dang"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
