@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "31C8F80027FC248F00D1B37F"
                BuildableName = "SwiftLib.framework"
-               BlueprintName = "SwiftLib"
-               ReferencedContainer = "container:SwiftLib.xcodeproj">
+               BlueprintName = "SwiftyLib"
+               ReferencedContainer = "container:SwiftyLib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,8 +35,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "31C8F80A27FC249000D1B37F"
                BuildableName = "SwiftLibTests.xctest"
-               BlueprintName = "SwiftLibTests"
-               ReferencedContainer = "container:SwiftLib.xcodeproj">
+               BlueprintName = "SwiftyLibTests"
+               ReferencedContainer = "container:SwiftyLib.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "31C8F80027FC248F00D1B37F"
             BuildableName = "SwiftLib.framework"
-            BlueprintName = "SwiftLib"
-            ReferencedContainer = "container:SwiftLib.xcodeproj">
+            BlueprintName = "SwiftyLib"
+            ReferencedContainer = "container:SwiftyLib.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

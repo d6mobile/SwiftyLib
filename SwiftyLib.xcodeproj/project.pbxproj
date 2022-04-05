@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31C8F80627FC248F00D1B37F /* SwiftLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F80527FC248F00D1B37F /* SwiftLib.docc */; };
-		31C8F80C27FC249000D1B37F /* SwiftLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C8F80127FC248F00D1B37F /* SwiftLib.framework */; };
+		31C8F80627FC248F00D1B37F /* SwiftyLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F80527FC248F00D1B37F /* SwiftyLib.docc */; };
+		31C8F80C27FC249000D1B37F /* SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C8F80127FC248F00D1B37F /* SwiftyLib.framework */; };
 		31C8F81127FC249000D1B37F /* SwiftLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F81027FC249000D1B37F /* SwiftLibTests.swift */; };
-		31C8F81227FC249000D1B37F /* SwiftLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C8F80427FC248F00D1B37F /* SwiftLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31C8F81227FC249000D1B37F /* SwiftyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C8F80427FC248F00D1B37F /* SwiftyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31C8F82227FC24AF00D1B37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F82127FC24AF00D1B37F /* AppDelegate.swift */; };
 		31C8F82427FC24AF00D1B37F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F82327FC24AF00D1B37F /* SceneDelegate.swift */; };
 		31C8F82627FC24AF00D1B37F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F82527FC24AF00D1B37F /* ViewController.swift */; };
@@ -31,10 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		31C8F80127FC248F00D1B37F /* SwiftLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31C8F80427FC248F00D1B37F /* SwiftLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftLib.h; sourceTree = "<group>"; };
-		31C8F80527FC248F00D1B37F /* SwiftLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftLib.docc; sourceTree = "<group>"; };
-		31C8F80B27FC249000D1B37F /* SwiftLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C8F80127FC248F00D1B37F /* SwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C8F80427FC248F00D1B37F /* SwiftyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLib.h; sourceTree = "<group>"; };
+		31C8F80527FC248F00D1B37F /* SwiftyLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftyLib.docc; sourceTree = "<group>"; };
+		31C8F80B27FC249000D1B37F /* SwiftyLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C8F81027FC249000D1B37F /* SwiftLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLibTests.swift; sourceTree = "<group>"; };
 		31C8F81F27FC24AF00D1B37F /* SwiftyLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C8F82127FC24AF00D1B37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C8F80C27FC249000D1B37F /* SwiftLib.framework in Frameworks */,
+				31C8F80C27FC249000D1B37F /* SwiftyLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +76,8 @@
 		31C8F7F727FC248F00D1B37F = {
 			isa = PBXGroup;
 			children = (
-				31C8F80327FC248F00D1B37F /* SwiftLib */,
-				31C8F80F27FC249000D1B37F /* SwiftLibTests */,
+				31C8F80327FC248F00D1B37F /* SwiftyLib */,
+				31C8F80F27FC249000D1B37F /* SwiftyLibTests */,
 				31C8F82027FC24AF00D1B37F /* SwiftyLibExamples */,
 				31C8F80227FC248F00D1B37F /* Products */,
 			);
@@ -86,29 +86,29 @@
 		31C8F80227FC248F00D1B37F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31C8F80127FC248F00D1B37F /* SwiftLib.framework */,
-				31C8F80B27FC249000D1B37F /* SwiftLibTests.xctest */,
+				31C8F80127FC248F00D1B37F /* SwiftyLib.framework */,
+				31C8F80B27FC249000D1B37F /* SwiftyLibTests.xctest */,
 				31C8F81F27FC24AF00D1B37F /* SwiftyLibExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		31C8F80327FC248F00D1B37F /* SwiftLib */ = {
+		31C8F80327FC248F00D1B37F /* SwiftyLib */ = {
 			isa = PBXGroup;
 			children = (
-				31C8F80427FC248F00D1B37F /* SwiftLib.h */,
-				31C8F80527FC248F00D1B37F /* SwiftLib.docc */,
+				31C8F80427FC248F00D1B37F /* SwiftyLib.h */,
+				31C8F80527FC248F00D1B37F /* SwiftyLib.docc */,
 				31C8F83527FC29B800D1B37F /* SwiftyLib.swift */,
 			);
-			path = SwiftLib;
+			path = SwiftyLib;
 			sourceTree = "<group>";
 		};
-		31C8F80F27FC249000D1B37F /* SwiftLibTests */ = {
+		31C8F80F27FC249000D1B37F /* SwiftyLibTests */ = {
 			isa = PBXGroup;
 			children = (
 				31C8F81027FC249000D1B37F /* SwiftLibTests.swift */,
 			);
-			path = SwiftLibTests;
+			path = SwiftyLibTests;
 			sourceTree = "<group>";
 		};
 		31C8F82027FC24AF00D1B37F /* SwiftyLibExamples */ = {
@@ -132,16 +132,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C8F81227FC249000D1B37F /* SwiftLib.h in Headers */,
+				31C8F81227FC249000D1B37F /* SwiftyLib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		31C8F80027FC248F00D1B37F /* SwiftLib */ = {
+		31C8F80027FC248F00D1B37F /* SwiftyLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31C8F81527FC249000D1B37F /* Build configuration list for PBXNativeTarget "SwiftLib" */;
+			buildConfigurationList = 31C8F81527FC249000D1B37F /* Build configuration list for PBXNativeTarget "SwiftyLib" */;
 			buildPhases = (
 				31C8F7FC27FC248F00D1B37F /* Headers */,
 				31C8F7FD27FC248F00D1B37F /* Sources */,
@@ -152,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftLib;
+			name = SwiftyLib;
 			productName = SwiftLib;
-			productReference = 31C8F80127FC248F00D1B37F /* SwiftLib.framework */;
+			productReference = 31C8F80127FC248F00D1B37F /* SwiftyLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		31C8F80A27FC249000D1B37F /* SwiftLibTests */ = {
+		31C8F80A27FC249000D1B37F /* SwiftyLibTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31C8F81827FC249000D1B37F /* Build configuration list for PBXNativeTarget "SwiftLibTests" */;
+			buildConfigurationList = 31C8F81827FC249000D1B37F /* Build configuration list for PBXNativeTarget "SwiftyLibTests" */;
 			buildPhases = (
 				31C8F80727FC249000D1B37F /* Sources */,
 				31C8F80827FC249000D1B37F /* Frameworks */,
@@ -170,9 +170,9 @@
 			dependencies = (
 				31C8F80E27FC249000D1B37F /* PBXTargetDependency */,
 			);
-			name = SwiftLibTests;
+			name = SwiftyLibTests;
 			productName = SwiftLibTests;
-			productReference = 31C8F80B27FC249000D1B37F /* SwiftLibTests.xctest */;
+			productReference = 31C8F80B27FC249000D1B37F /* SwiftyLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		31C8F81E27FC24AF00D1B37F /* SwiftyLibExamples */ = {
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 31C8F7FB27FC248F00D1B37F /* Build configuration list for PBXProject "SwiftLib" */;
+			buildConfigurationList = 31C8F7FB27FC248F00D1B37F /* Build configuration list for PBXProject "SwiftyLib" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,8 +226,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31C8F80027FC248F00D1B37F /* SwiftLib */,
-				31C8F80A27FC249000D1B37F /* SwiftLibTests */,
+				31C8F80027FC248F00D1B37F /* SwiftyLib */,
+				31C8F80A27FC249000D1B37F /* SwiftyLibTests */,
 				31C8F81E27FC24AF00D1B37F /* SwiftyLibExamples */,
 			);
 		};
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C8F80627FC248F00D1B37F /* SwiftLib.docc in Sources */,
+				31C8F80627FC248F00D1B37F /* SwiftyLib.docc in Sources */,
 				31C8F83627FC29B800D1B37F /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +293,7 @@
 /* Begin PBXTargetDependency section */
 		31C8F80E27FC249000D1B37F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 31C8F80027FC248F00D1B37F /* SwiftLib */;
+			target = 31C8F80027FC248F00D1B37F /* SwiftyLib */;
 			targetProxy = 31C8F80D27FC249000D1B37F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -593,7 +593,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31C8F7FB27FC248F00D1B37F /* Build configuration list for PBXProject "SwiftLib" */ = {
+		31C8F7FB27FC248F00D1B37F /* Build configuration list for PBXProject "SwiftyLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31C8F81327FC249000D1B37F /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31C8F81527FC249000D1B37F /* Build configuration list for PBXNativeTarget "SwiftLib" */ = {
+		31C8F81527FC249000D1B37F /* Build configuration list for PBXNativeTarget "SwiftyLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31C8F81627FC249000D1B37F /* Debug */,
@@ -611,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31C8F81827FC249000D1B37F /* Build configuration list for PBXNativeTarget "SwiftLibTests" */ = {
+		31C8F81827FC249000D1B37F /* Build configuration list for PBXNativeTarget "SwiftyLibTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31C8F81927FC249000D1B37F /* Debug */,

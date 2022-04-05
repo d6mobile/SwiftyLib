@@ -1,12 +1,12 @@
 //
-//  SwiftLibTests.swift
-//  SwiftLibTests
+//  SwiftyLibTests.swift
+//  SwiftyLibTests
 //
 //  Created by Dang Duy on 05/04/2022.
 //
 
 import XCTest
-@testable import SwiftLib
+@testable import SwiftyLib
 
 class SwiftyLibTests: XCTestCase {
     

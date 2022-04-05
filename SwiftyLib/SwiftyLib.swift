@@ -1,6 +1,6 @@
 //
 //  SwiftyLib.swift
-//  SwiftLib
+//  SwiftyLib
 //
 //  Created by Dang Duy on 05/04/2022.
 //
